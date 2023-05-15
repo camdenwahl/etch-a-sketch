@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    background-color:darkgrey;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {  
+    display: flex;
+}
+
+#button-div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-basis: 100%;
+    background-color: darkgray !important;
+    border: none !important;
+    padding: 0 !important;
+}
+#button-div button {
+    background-color:aliceblue;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#button-div button:hover {
+    background-color: cadetblue;
+    transition: 0.5s;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+
+.sub-div{
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 10%;
+}
+
+.sub-div div{
+    background-color: azure;
+    padding: 30px;
+    border: 1px solid black;
+}
+
